@@ -1,0 +1,14 @@
+#! /bin/bash
+echo give a value for a:
+read a
+echo gve a value for b:
+read b
+echo give a value for c:
+read c
+if [ @a is greater tha $b ]
+then 1st statement is correct
+elif [ @b is greater than $c ]
+then 2nd statement is false
+else [ $c is less than $a ]
+then 3rd statement is equal
+fi
